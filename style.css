@@ -1,0 +1,48 @@
+body{ 
+    background-color: rgba(90, 58, 2, 0.717);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-left: 55px;
+    color: rgba(0, 0, 0, 0.758);
+}
+img{
+    border-width: 6px;
+    border-style:groove;
+    border-color: rgba(0, 0, 0, 0.5) ;
+    border-radius: 90%;
+    width: 200px;
+
+}
+h1{
+    text-decoration:underline;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px rgb(65, 38, 0), 0 0 1em rgba(255, 0, 0, 0.735), 0 0 0.2em rgba(208, 6, 6, 0.678);
+}
+ 
+ul{
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.495);
+    margin-right: 900px;
+    text-align: center;
+    padding: 2%;
+}
+ol{
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.495);
+    margin-right: 900px;
+    text-align: center;
+    padding: 2%;
+}
+h4{
+    text-decoration: underline;
+    margin-left: 70px;
+}
+a{
+    color: rgba(130, 75, 4, 0.73);
+}
+a:hover{
+    color: rgba(87, 86, 86, 0.624);
+}

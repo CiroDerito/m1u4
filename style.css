@@ -1,6 +1,8 @@
 body{ 
-    background-color: rgba(90, 58, 2, 0.717);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to right,rgb(117, 83, 3),rgb(36, 23, 1) );
+    font-family: "Cinzel", serif;
+    font-weight: 400;
+
     font-size: 15px;
     margin-left: 55px;
     color: rgba(0, 0, 0, 0.758);
@@ -17,7 +19,7 @@ h1{
     text-decoration:underline;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
-    text-shadow: 1px 1px 2px rgb(65, 38, 0), 0 0 1em rgba(255, 0, 0, 0.735), 0 0 0.2em rgba(208, 6, 6, 0.678);
+    text-shadow: 1px 1px 2px rgb(65, 38, 0), 0 0 1em rgba(255, 170, 0, 0.735), 0 0 0.2em rgba(208, 114, 6, 0.678);
 }
  
 ul{
@@ -26,7 +28,11 @@ ul{
     border-color: rgba(0, 0, 0, 0.495);
     margin-right: 900px;
     text-align: center;
+    width: 300px;
     padding: 2%;
+    box-shadow: -5px 10px 15px #2f1400;
+   
+  
 }
 ol{
     border-width: 3px;
@@ -35,14 +41,40 @@ ol{
     margin-right: 900px;
     text-align: center;
     padding: 2%;
+    display: inline-block;
+    box-shadow: -3px 10px 15px #301001;
+    width: 300px;
 }
 h4{
     text-decoration: underline;
     margin-left: 70px;
 }
 a{
-    color: rgba(130, 75, 4, 0.73);
+    color: rgba(58, 34, 2, 0.806);
 }
 a:hover{
     color: rgba(87, 86, 86, 0.624);
+}
+i#hp{
+color: black;
+}
+i#hp:hover{
+   color:rgb(13, 65, 4);
+}
+i#dp{
+    color:black
+}
+i#dp:hover{
+    color: rgb(131, 8, 8);
+}
+#jk{    
+    width: 20px;
+    border-radius: none;
+    border-style: none;
+    position: absolute;
+    align-items: center;
+    margin-left: 5px;
+}
+#jk:hover{
+    color: black;
 }

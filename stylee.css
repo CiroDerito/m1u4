@@ -1,0 +1,25 @@
+body{
+    background: #804305; 
+    background: -webkit-linear-gradient(to right, #181818, #804305);  
+    background: linear-gradient(to right, #181818, #804305); 
+   
+
+}
+.conteiner{
+    text-align: center;
+    margin-top:15% ;
+    border-style: solid ;
+    border-width: 2px;
+    border-color: rgba(0, 0, 0, 0.835);
+    display: -webkit-inline-box;
+    position: relative;
+    margin-left: 40%;
+    padding:2% ;
+    background-image: url(fondo.jpg);
+    font-family: "Kalam", cursive;
+    font-weight: 500;
+    font-style: normal;
+   
+    background-size:cover;
+   
+}
